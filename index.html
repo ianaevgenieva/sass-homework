@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+
+ 
+
+<meta charset="ISO-8859-1">
+<title>Task</title>
+<link rel="stylesheet" type = "text/css" href="assets/css/style.css">
+<link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
+
+</head>
+<body>
+ <header>
+  <h>MOVIES</h>
+  <div id="link">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">MOST POPULAR</a>
+    <a href="#">NEWS</a> 
+    <a href="#">CONTACTS</a>
+    <input type = "text" id = "search">  
+  </div>
+ </header>
+ <div id="pinkArea">
+	 <div id = "linkPink">
+		   <a href = "#">CINEMA MOVIES</a>
+		   <a href = "#">TV SERIES</a>
+		   <a href = "#">CARTOONS</a>
+		   <a href = "#">ANIME</a>   
+		   <a href = "#">NEW MOVIES</a>
+		   <a href = "#">HD MOVIES</a>
+	   </div>
+ </div>
+ <div class="firstPage">
+     <p id="sponge">Sponge Bob </p>
+     <p id="textSponge">But I must explain to you how all this mistaken idea 
+      I will give you a complete account of the system,</p>
+      <div class="btn">
+        <button class="buttons" type = "button">LEARN MORE</button>
+        <button class="buttons" type = "button">WATCH TRAILER</button>
+      </div>
+      <div class="picBot">
+	       <img  src = "assets/image/alice.jpg" class= "pic" 
+	       onmouseOver ="bigImage(this)"  onmouseout= "smallImage(this)">
+	       <img src = "assets/image/angry-birds.jpg" class= "pic"
+	        onmouseOver ="bigImage(this)"  onmouseout= "smallImage(this)">
+	       <img src = "assets/image/kung-fu3.jpg" class= "pic"
+	       onmouseOver ="bigImage(this)"  onmouseout= "smallImage(this)">
+      </div>
+ </div>
+ <div class="secondPage">
+   <p id ="secondH">Watch you favourite movies</p>
+   <p id="textSecondPage">But I must explain to you how all this mistaken idea 
+                          I will give you a complete account of the system 
+                          But I must explain to you how all this mistaken idea 
+                          Ie
+     </p>
+     <div id= "sectionFilm">
+         <ul class="ul">
+			  <li class="li">Action</li>
+			  <li class="li">Adventure</li>
+			  <li class="li">Animation</li>
+			  <li class="li">Biography</li>
+			  <li class="li">Comedy</li>
+			  <li class="li">Crime</li>
+			  <li class="li">Documentary</li>
+		</ul>
+		<ul class="ul">
+			  <li class="li">Drama</li>
+			  <li class="li">game-show</li>
+			  <li class="li">History</li>
+			  <li class="li">Horror</li>
+			  <li class="li">Kids</li>
+		</ul>
+			<ul class="ul">
+			  <li class="li">Music</li>
+			  <li class="li">Musical</li>
+			  <li class="li">News</li>
+			  <li class="li">Romance</li>
+			  <li class="li">Sci-Fi</li>
+		</ul>
+			<ul class="ul">
+			  <li class="li">Sport</li>
+			  <li class="li">Thriller</li>
+			  <li class="li">War</li>
+			  <li class="li">Western</li>
+		</ul>
+      </div>
+    <button type = "button" id = "buttonSrc">SEARCH</button>   
+</div>
+ <div id="thirdPage">
+  <p id ="thirdHeader">MORE MOVIES</p>
+  <div id= "sectionGalerry">
+       <div class= "columnImg">
+          <div class="pictureInf">
+	         <img src = "assets/image/alice.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+           </div>
+         <div class="pictureInf">
+	         <img src = "assets/image/angry-birds.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+	         </div>
+       </div>
+         <div class= "columnImg">
+          <div class="pictureInf">
+	         <img src = "assets/image/alice.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+           </div>
+         <div class="pictureInf">
+	         <img src = "assets/image/kung-fu3.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+	         </div>
+   </div>
+      <div class= "columnImg">
+          <div class="pictureInf">
+	         <img src = "assets/image/alice.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+           </div>
+         <div class="pictureInf">
+	         <img src = "assets/image/kung-fu3.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+	         </div>
+   </div>
+      <div class= "columnImg">
+          <div class="pictureInf">
+	         <img src = "assets/image/alice.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+           </div>
+         <div class="pictureInf">
+	         <img src = "assets/image/kung-fu3.jpg" class="innerImg">
+	         <p class="innerP"> solum obfs </p>
+	         <p class= "years">2014</p>
+	         </div>
+   </div>   
+ </div>
+ <button type = "button" id="buttonView" >VIEW MORE</button>   
+</div>
+ <div id="fourPage">
+  <p id ="fourHeader">Testimonials<p>
+   <div id = "arrow">
+      <p class="element" id="symbol1">&lt;</p>
+      <img class= "element" id="man"  src="assets/image/man.jpg">
+      <p class="element" id="symbol2">&gt;</p>
+   </div>
+   <div class="textbot">
+    <p id=name> James Dg. </p>
+    <p id = "fan"> Movie Fan</p>
+     </div>
+    <p id = "textFen"> 	&ldquo;But I must explain to you how all this mistaken idea 
+                          I will give you a complete account of the system 
+                          But I must explain to you how all this mistaken idea 
+                          Ie 	&rdquo;
+    </p>            
+ </div>
+ 
+ <div id="fivePage">
+   <p id="fiveHeader">Mail us</p>
+  
+	     <div id="containerName">
+		    <p id="names" onclick = "myName();">Your name</p>
+		    <input id = "inputNames">
+		  </div>
+		  <div id="containerMail">
+		    <p id="mails" onclick = "myMail();">Your mail</p>
+		    <input id = "inputMails">
+		  </div>
+		  <div id="containerMessage">
+		    <p id="message" onclick = "myMessage();">Your message</p>
+		    <input id = "inputMessage">
+		  </div>
+		   <button type = "button" id = "buttonMessage">SEND</button> 
+</div>
+<div id="googleMap" ></div>
+
+</body>
+<script>
+function myName(label){
+	  document.getElementById("names").style.marginTop = "10px";
+	  var input =  document.getElementById("inputNames").style.display ="block";
+	  input.style.marginBottom = "5px";
+}
+function myMail(label){
+	document.getElementById("mails").style.marginTop ="10px";
+	var input = document.getElementById("inputMails").style.display = "block";
+	input.style.marginBotton ="5px";
+}
+function myMessage(label){
+	document.getElementById("message").style.marginTop ="10px";
+	var input = document.getElementById("inputMessage").style.display = "block";
+	input.style.marginBotton ="5px";
+	
+}
+function smallImage(img) {
+	  img.style.height = "148px";
+	 
+}
+function bigImage(img) {
+	  img.style.height = "170px";
+	  document.getElementById("sponge").style.backgroundImage=url(img);
+}
+
+</script>
+</html>
