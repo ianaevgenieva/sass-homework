@@ -1,0 +1,312 @@
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #2F4F4F;
+  display: inline-block; }
+  header h {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 40px; }
+  header #link {
+    float: right;
+    padding-right: 40px;
+    display: inline-block;
+    font-size: 19px;
+    word-spacing: 5px; }
+    header #link #search {
+      float: right;
+      width: 70px;
+      height: 15px;
+      background-color: #2F4F4F;
+      border-radius: 3px;
+      margin-left: 5px;
+      border: 1px solid #708090; }
+    header #link a:hover {
+      text-decoration: none;
+      color: white; }
+    header #link a {
+      text-decoration: none;
+      color: #708090; }
+
+#pinkArea {
+  width: 100%;
+  height: 60px;
+  background-color: #F08080;
+  display: inline-block; }
+  #pinkArea #linkPink {
+    margin-left: 15%;
+    margin-top: 15px; }
+    #pinkArea #linkPink a:hover {
+      text-decoration: none;
+      color: red; }
+    #pinkArea #linkPink a {
+      text-decoration: none;
+      color: white;
+      float: left;
+      margin-left: 50px; }
+
+.firstPage {
+  width: 100%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../image/sponge-bob.jpg"); }
+  .firstPage .picBot {
+    float: right;
+    hight: 320px;
+    width: 450px;
+    padding-top: 102px;
+    display: inline-block; }
+  .firstPage #sponge {
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    height: 30px;
+    padding-left: 40%;
+    padding-top: 100px; }
+  .firstPage #textSponge {
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    padding-left: 40%;
+    padding-top: 14px; }
+  .firstPage .btn {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    padding-left: 40%;
+    padding-top: 15px; }
+    .firstPage .btn .buttons {
+      border-radius: 10px;
+      opacity: 0.2;
+      border: 1px solid white;
+      width: 100px;
+      height: 40px;
+      font-size: 10px;
+      border: 2px solid white;
+      box-sizing: border-box; }
+
+.secondPage {
+  width: 100%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../image/bg-black.jpg"); }
+  .secondPage #secondH {
+    padding-left: 35%;
+    padding-top: 1%;
+    font-size: 35px;
+    color: white; }
+  .secondPage #textSecondPage {
+    padding-left: 25%;
+    padding-top: 1%;
+    color: white;
+    width: 60%;
+    opacity: 0.3; }
+  .secondPage #sectionFilm {
+    width: 90%;
+    height: 60%;
+    padding-left: 10%;
+    display: inline-block; }
+    .secondPage #sectionFilm .ul {
+      float: left;
+      padding-left: 50px;
+      padding-right: 120px;
+      list-style-type: circle; }
+      .secondPage #sectionFilm .ul .li {
+        font-size: 24px;
+        color: white;
+        opacity: 0.8;
+        padding-top: 10px; }
+  .secondPage #buttonSrc {
+    border-radius: 10px;
+    opacity: 0.2;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-left: 50%; }
+
+#thirdPage {
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: 100% 100%; }
+  #thirdPage #thirdHeader {
+    padding-left: 35%;
+    padding-top: 1%;
+    font-size: 35px;
+    color: white;
+    word-spacing: 30px;
+    opacity: 0.8; }
+  #thirdPage #sectionGalerry {
+    width: 99%;
+    height: 680px;
+    display: inline-block;
+    padding-top: 20px; }
+    #thirdPage #sectionGalerry .columnImg {
+      float: left;
+      padding-left: 140px; }
+      #thirdPage #sectionGalerry .columnImg .innerImg {
+        width: 150px;
+        border-radius: 5px; }
+      #thirdPage #sectionGalerry .columnImg .pictureInf {
+        padding-top: 20px; }
+      #thirdPage #sectionGalerry .columnImg .innerP {
+        color: white;
+        padding-left: 25px;
+        font-size: 20px; }
+      #thirdPage #sectionGalerry .columnImg .years {
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 40%; }
+  #thirdPage #buttonView {
+    border-radius: 10px;
+    opacity: 0.2;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-left: 45%; }
+
+#fourPage {
+  width: 100%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../image/bg-red.jpg"); }
+  #fourPage #fourHeader {
+    padding-left: 35%;
+    padding-top: 1%;
+    font-size: 35px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 42%; }
+  #fourPage #arrow {
+    width: 60%;
+    height: 240px;
+    display: inline-block;
+    padding-left: 22%;
+    padding-top: 2%; }
+    #fourPage #arrow .element {
+      float: left;
+      padding-left: 100px; }
+    #fourPage #arrow #man {
+      width: 250px;
+      height: 200px;
+      border-radius: 50%; }
+    #fourPage #arrow #symbol1, #fourPage #arrow #symbol2 {
+      font-size: 60px;
+      color: white;
+      padding-top: 60px; }
+  #fourPage .textbot {
+    width: 200px;
+    height: 40px;
+    margin-left: 42%; }
+    #fourPage .textbot #fan {
+      font-size: 12px;
+      padding-left: 30%;
+      color: white;
+      opacity: 0.4; }
+    #fourPage .textbot #name {
+      font-size: 15px;
+      padding-left: 30%;
+      color: white; }
+  #fourPage #textFen {
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-left: 10%;
+    height: 50px; }
+
+#fivePage {
+  width: 100%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../image/bg-black.jpg"); }
+  #fivePage #fiveHeader {
+    padding-left: 35%;
+    padding-top: 1%;
+    font-size: 35px;
+    color: white;
+    padding-left: 45%;
+    padding-top: 50px; }
+  #fivePage #containerName {
+    width: 400px;
+    height: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: 2%;
+    margin-left: 7%;
+    display: block; }
+    #fivePage #containerName #names {
+      float: left;
+      margin-top: 45px;
+      width: 100%;
+      height: 40%;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.3em; }
+    #fivePage #containerName #inputNames {
+      margin-top: 60px;
+      background: none;
+      border: none;
+      color: rgba(255, 255, 255, 0.8);
+      width: 100%; }
+  #fivePage #containerMail {
+    width: 400px;
+    height: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: 2%;
+    margin-left: 7%;
+    display: block; }
+    #fivePage #containerMail #mails {
+      float: left;
+      margin-top: 45px;
+      width: 100%;
+      height: 40%;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.3em; }
+    #fivePage #containerMail #inputMails {
+      margin-top: 60px;
+      background: none;
+      border: none;
+      color: rgba(255, 255, 255, 0.8);
+      width: 100%; }
+  #fivePage #containerMessage {
+    width: 400px;
+    height: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: 2%;
+    margin-left: 7%;
+    display: block; }
+  #fivePage #message {
+    float: left;
+    margin-top: 45px;
+    width: 100%;
+    height: 40%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3em; }
+  #fivePage #inputMessage {
+    margin-top: 60px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%; }
+  #fivePage #buttonMessage {
+    border-radius: 10px;
+    opacity: 0.2;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-left: 10%; }
+
+/*# sourceMappingURL=style.css.map */
