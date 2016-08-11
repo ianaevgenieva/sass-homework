@@ -1,0 +1,64 @@
+
+
+@mixin page($bigHeight,$widthPage) {
+  width: $widthPage;
+  height:$bigHeight;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+@mixin head ($padding-left,$padding-top,$font-size,$textWhite) {
+   padding-left: $padding-left;
+   padding-top: $padding-top;
+   font-size: $font-size;
+   color: $textWhite;
+}
+@mixin text ($padding-leftText,$padding-top,$textWhite,$widthText) {
+    padding-left: $padding-leftText;
+    padding-top: $padding-top;
+    color: $textWhite;
+    width: $widthText;
+  
+ }
+ @mixin button {
+      border-radius:10px;
+      opacity:0.2;
+      border:1px solid $textWhite;
+	  width:100px;
+	  height:40px;
+      font-size:10px;
+      border: 2px solid white;
+      box-sizing: border-box;
+ }
+  @mixin pageBig($veryBigHeight,$widthPage) {
+    width: $widthPage;
+    height:$veryBigHeight;
+  }
+  @mixin symbol() {
+          font-size:60px;
+	  	  color: $textWhite;
+	  	  padding-top:60px;
+  }
+  @mixin container () {
+            width:400px;
+	        height:70px;
+	        border-bottom:2px solid rgba(255,255,255,0.3);
+	        margin-top:2%;
+	        margin-left:7%;
+	        display:block;
+  }
+  @mixin inputsText () {
+             float:left;
+		     margin-top:45px;
+		     width: 100%;
+             height: 40%;
+             color:rgba(255,255,255,0.8);
+             font-size:1.3em;
+  }
+  @mixin input () {
+		      margin-top:60px;
+		      background:none;
+		      border:none;
+		      color: rgba(255,255,255,0.8);
+		      width:100%;
+  }
