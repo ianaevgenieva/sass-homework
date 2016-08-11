@@ -1,0 +1,41 @@
+
+
+@mixin page($bigHeight,$widthPage) {
+  width: $widthPage;
+  height:$bigHeight;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+@mixin head ($padding-left,$padding-top,$font-size,$textWhite) {
+   padding-left: $padding-left;
+   padding-top: $padding-top;
+   font-size: $font-size;
+   color: $textWhite;
+}
+@mixin text ($padding-leftText,$padding-top,$textWhite,$widthText) {
+    padding-left: $padding-leftText;
+    padding-top: $padding-top;
+    color: $textWhite;
+    width: $widthText;
+  
+ }
+ @mixin button {
+      border-radius:10px;
+      opacity:0.2;
+      border:1px solid $textWhite;
+	  width:100px;
+	  height:40px;
+      font-size:10px;
+      border: 2px solid white;
+      box-sizing: border-box;
+ }
+  @mixin pageBig($veryBigHeight,$widthPage) {
+    width: $widthPage;
+    height:$veryBigHeight;
+  }
+  @mixin symbol() {
+          font-size:60px;
+	  	  color: $textWhite;
+	  	  padding-top:60px;
+  }
