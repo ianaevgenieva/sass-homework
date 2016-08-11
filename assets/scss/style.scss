@@ -1,0 +1,284 @@
+
+
+@import "mixin";
+@import "variable";
+
+header {
+	  width: 100%;
+	  height: $smallHeight;
+	  background-color: $grey;
+	  display: inline-block;
+
+		h {
+		 color: $textWhite;
+		 font-size: 30px;
+		 padding-top: 20px;
+		 padding-left: 40px;
+	 	}
+	 	#link {
+	 	 float: right;
+	 	 padding-right: 40px;
+	 	 display: inline-block;
+ 	     font-size: 19px;
+ 	     word-spacing:5px;
+ 	     
+		 	   #search {
+		 	    float: right;
+		 	    width: 70px;
+		 	    height:15px;
+		 	    background-color: $grey;
+		 	    border-radius: 3px;
+		 	    margin-left: 5px;
+		 	    border: 1px solid $darkGrey;
+		 	   }
+		 	   a:hover {
+		 	      text-decoration: none;
+		 	      color: $textWhite;
+		 	   }
+		 	   a {
+		 	     text-decoration: none;
+		 	     color: $darkGrey;
+		 	   }
+ 	    }
+ }
+ #pinkArea {
+     width: 100%;
+     height: $smallHeight ;
+     background-color: $pink;
+     display: inline-block;
+     
+	     #linkPink {
+	      margin-left:15%;
+	      margin-top:15px;
+	     
+	      a:hover {
+	       text-decoration: none;
+	       color:red;
+	      }
+	      a {
+	        text-decoration: none;
+	        color: $textWhite;
+	        float:left;
+	        margin-left:50px;
+	     
+	      }
+	    }
+ }
+ .firstPage {
+	@include page($bigHeight,$widthPage);
+	background-image:url("../image/sponge-bob.jpg");
+     .picBot {
+	      float:right;
+	      hight:320px;
+	      width:450px;
+	      padding-top:102px;
+	      display:inline-block;
+	     
+     }
+     #sponge {
+	      color: $textWhite;
+	      font-size:40px;
+	      width:250px;
+	      height:30px;
+	      padding-left:40%;
+	      padding-top:100px;
+     }
+     #textSponge {
+	      color: $textWhite;
+	      font-size:15px;
+	      width:450px;
+	      padding-left:40%;
+	      padding-top:14px;
+     }
+     .btn {
+	      display:inline-block;
+	      width:300px;
+	      height:250px;
+	      padding-left:40%;
+	      padding-top:15px;
+		      .buttons {
+		         @include button ();
+             }
+     }
+  
+ }
+ .secondPage {
+   @include page($bigHeight,$widthPage);
+	background-image:url("../image/bg-black.jpg");
+	 #secondH{
+    	@include head($padding-left,$padding-top,$font-size,$textWhite);
+	 }
+	 #textSecondPage {
+		  @include text ($padding-leftText,$padding-top,$textWhite,$widthText);
+		  opacity: 0.3;
+	 }
+  #sectionFilm {
+		   width:90%;
+		   height:60%;
+		   padding-left:10%;
+		   display:inline-block;
+	   
+		   .ul {
+			   float:left;
+			   padding-left:50px;
+			   padding-right:120px;
+			   list-style-type: circle;
+				   .li {
+				   font-size:24px;
+				   color: $textWhite;
+				   opacity:0.8;
+				   padding-top:10px;
+				   }
+		  }
+ }
+	  #buttonSrc {
+		 @include button ();
+		 margin-left:50%;
+	  }
+ }
+ #thirdPage {
+  @include pageBig($veryBigHeight,$widthPage);
+
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size:100% 100%;
+   
+    #thirdHeader {
+    @include head ($padding-left,$padding-top,$font-size,$textWhite);
+    word-spacing:30px;
+    opacity:0.8;
+    } 
+    #sectionGalerry {
+    width:99%;
+    height:680px;
+    display:inline-block;
+    padding-top:20px;
+      .columnImg {
+           float:left;
+		   padding-left:140px;
+			   .innerImg {
+			     width:150px;
+			     border-radius:5px;
+			   }
+			   .pictureInf{
+			     padding-top: 20px;
+			   }
+			   .innerP {
+			     color: $textWhite;
+			     padding-left:25px;
+			     font-size:20px;
+			    }
+			    .years {
+			      color:  rgba(0, 0, 0, 0.5);
+			      padding-left:40%;
+			    }
+      } 
+    }
+   #buttonView {
+     @include button ();
+     margin-left: 45%;
+   }
+ }
+ 
+ #fourPage {
+  @include page($bigHeight,$widthPage);
+  background-image:url("../image/bg-red.jpg");
+	 #fourHeader {
+	   @include head ($padding-left,$padding-top,$font-size,$textWhite);
+	   padding-top:60px;
+	   padding-left:42%;
+	 }
+	 #arrow {
+	  width:60%;
+	  height:240px;
+	  display:inline-block;
+	  padding-left:22%;
+	  padding-top:2%;
+	  	 .element {
+	  	   float:left;
+	  	   padding-left:100px;
+	  	 }
+	  	 #man {
+	  	 width:250px;
+	  	 height:200px;
+	  	 border-radius:50%;
+	  	 }
+	  	 #symbol1,#symbol2 {
+	  	  @include symbol ();
+	  	 }
+	  	 
+	  }
+	  .textbot {
+	   width:200px;
+	   height:40px;
+	   margin-left:42%;
+	    #fan {
+	     font-size:12px;
+	     padding-left:30%;
+	     color:$textWhite;
+	     opacity:0.4;
+	    }
+	    #name {
+	     font-size:15px;
+	     padding-left:30%;
+	     color:$textWhite;
+	    }
+	  }
+	  #textFen {
+	     color: $textWhite;
+	      font-size:15px;
+	      width:60%;
+	      margin-left:10%;
+	      padding-top:10px;
+	      padding-left:10%;
+	      height:50px;
+	  }
+ }
+ #fivePage {
+     @include page($bigHeight,$widthPage);
+     background-image:url("../image/bg-black.jpg");
+      
+      #fiveHeader {
+	       @include head ($padding-left,$padding-top,$font-size,$textWhite);
+	       padding-left:45%;
+	       padding-top:50px;
+      }
+  
+      #containerName {
+	       @include container();
+	        
+		    #names {
+		    @include inputsText();
+	        }
+	       #inputNames {
+		      @include input();
+	      }
+        }
+    #containerMail {
+	      @include container();
+	        #mails {
+		     @include inputsText();
+	        }
+	       #inputMails {
+		    @include input();
+	      }    
+      }
+      #containerMessage {
+         @include container();
+      }
+      #message {
+         @include inputsText();
+      }
+      #inputMessage {
+         @include input();
+      }
+        #buttonMessage {
+           @include button ();
+           margin-left: 10%;
+        
+      }
+   }
+ 
+   
+ 
+ 
+ 
